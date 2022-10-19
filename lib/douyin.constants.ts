@@ -1,0 +1,1 @@
+export const DOUYIN_APP_OPTIONS = Symbol('DOUYIN_APP_OPTIONS')
