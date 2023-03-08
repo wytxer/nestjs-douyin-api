@@ -1,7 +1,7 @@
 {
-  "name": "nest-douyin",
-  "version": "0.1.1",
-  "description": "基于 Nest 封装的抖音小程序 API",
+  "name": "nestjs-douyin",
+  "version": "0.1.0",
+  "description": "基于 Nestjs 封装的抖音小程序 API",
   "main": "dist/index.js",
   "directories": {
     "lib": "lib"
@@ -47,7 +47,7 @@
     "node": ">=16"
   },
   "license": "MIT",
-  "homepage": "https://github.com/wytxer/nest-douyin/#readme",
+  "homepage": "https://github.com/wytxer/nestjs-douyin/#readme",
   "keywords": [
     "nest",
     "nestjs",
@@ -66,9 +66,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wytxer/nest-douyin.git"
+    "url": "https://github.com/wytxer/nestjs-douyin.git"
   },
   "bugs": {
-    "url": "https://github.com/wytxer/nest-douyin/issues"
+    "url": "https://github.com/wytxer/nestjs-douyin/issues"
   }
 }
