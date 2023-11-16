@@ -1,6 +1,6 @@
-# NESTJS DOUYIN
+# NESTJS DOUYIN API
 
-基于 Nestjs 封装的抖音小程序 API，持续完善中。
+基于 [douyin-api](https://github.com/wytxer/douyin-api) 封装的抖音生态服务端接口
 
 
 ## 使用
@@ -8,7 +8,7 @@
 导入模块：
 
 ```ts
-import { DouyinAppModule } from 'nestjs-douyin'
+import { DouyinAppModule } from 'nestjs-douyin-api'
 
 @Module({
   imports: [
@@ -20,7 +20,7 @@ import { DouyinAppModule } from 'nestjs-douyin'
 使用：
 
 ```ts
-import { DouyinAppService } from 'nestjs-douyin'
+import { DouyinAppService } from 'nestjs-douyin-api'
 
 @Injectable()
 export class UserService {
@@ -31,7 +31,7 @@ export class UserService {
 当成工具类使用：
 
 ```ts
-import { DouyinAppService } from 'nestjs-douyin'
+import { DouyinAppService } from 'nestjs-douyin-api'
 
 const douyinApp = new DouyinAppService({ appid: '', secret: '' })
 ```

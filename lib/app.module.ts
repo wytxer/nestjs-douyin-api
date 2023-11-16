@@ -1,12 +1,13 @@
 import { DynamicModule, Module } from '@nestjs/common'
+import { IDouyinConfig } from 'douyin-api'
 
-import { IDouyinOptions, IDouyinAsyncOptions } from './douyin.interface'
+import { IDouyinAsyncOptions } from './douyin.interface'
 import { DOUYIN_APP_OPTIONS } from './douyin.constants'
 import { DouyinAppService } from './app.service'
 
 @Module({})
 export class DouyinAppModule {
-  public static forRoot(options: IDouyinOptions): DynamicModule {
+  public static forRoot(options: IDouyinConfig): DynamicModule {
     return {
       module: DouyinAppModule,
       providers: [

@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-douyin",
-  "version": "0.1.0",
-  "description": "基于 Nestjs 封装的抖音小程序 API",
+  "name": "nestjs-douyin-api",
+  "version": "0.1.1",
+  "description": "基于 douyin-api 封装的抖音生态服务端接口",
   "main": "dist/index.js",
   "directories": {
     "lib": "lib"
@@ -12,8 +12,8 @@
     "lint": "eslint 'lib/**/*.ts' --fix"
   },
   "dependencies": {
-    "axios": "^1.1.2",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "douyin-api": "^0.1.0"
   },
   "devDependencies": {
     "@nestjs/common": "^9.1.2",
@@ -47,7 +47,7 @@
     "node": ">=16"
   },
   "license": "MIT",
-  "homepage": "https://github.com/wytxer/nestjs-douyin/#readme",
+  "homepage": "https://github.com/wytxer/nestjs-douyin-api/#readme",
   "keywords": [
     "nest",
     "nestjs",
@@ -66,9 +66,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wytxer/nestjs-douyin.git"
+    "url": "https://github.com/wytxer/nestjs-douyin-api.git"
   },
   "bugs": {
-    "url": "https://github.com/wytxer/nestjs-douyin/issues"
+    "url": "https://github.com/wytxer/nestjs-douyin-api/issues"
   }
 }
